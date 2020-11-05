@@ -12,6 +12,8 @@ the CNF Agent outperforms the others in performance because it is able to make l
 about the state of the board using the entire frontier of uncovered cells. Further exploration is done to assess
 how this agent would perform given unreliable perception of its environment.
 
+![](images/play-by-play.png)
+
 ## Visualization 
 
 Visualization of the game board is built into the object and is based off of the matplotlib library.  Flags appear as
@@ -19,8 +21,6 @@ red triangles. Uncovered mines (mines that have exploded) appear as red circles.
 colored text within the cell, except in the case where the mine count is 0.   
 
 ![](images/bonus-play-3.png)
-
-![](images/play-by-play.png)
 
 
 ## Basic Agent 
@@ -69,7 +69,7 @@ Using the pycosat library, we can efficiently query the knowledgebase to see if 
 
 ## Comparison
 
-![](images/4-10-1)  
+![](images/4-10-1.png)  
 
 
 
